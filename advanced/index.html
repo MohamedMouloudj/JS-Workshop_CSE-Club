@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM Workshop</title>
+    <link rel="stylesheet" href="style.module.css" />
+    <script async src="05-async-and-defer.js"></script>
+  </head>
+  <body>
+    <main class="page">
+      <h1 id="title">JavaScript DOM Workshop</h1>
+      <div class="container">
+        <p>Submit a learner name to update the page.</p>
+        <form id="workshop-form">
+          <label for="name-input">Name</label>
+          <input
+            id="name-input"
+            name="name"
+            type="text"
+            placeholder="Your name"
+          />
+          <button type="submit">Submit form</button>
+        </form>
+      </div>
+      <div class="container">
+        <p>Run an independent action.</p>
+        <button id="action-button" type="button">Run action</button>
+      </div>
+      <div id="output" class="container" aria-live="polite">Ready.</div>
+      <script src="03-dom-tree-structure-and-rendering.js"></script>
+      <script src="04-dom-events-and-propagation.js"></script>
+    </main>
+  </body>
+</html>
