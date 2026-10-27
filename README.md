@@ -5,6 +5,15 @@ syntax to browser and asynchronous programming.
 
 Realized as part of CSE club's ESMS workshop series.
 
+## How to start
+
+Clone the repository:
+
+```powershell
+git clone https://github.com/MohamedMouloudj/JS-Workshop_CSE-Club.git
+cd JS-Workshop_CSE-Club
+```
+
 ## Run scripts with Node.js
 
 From the project folder, run any terminal-compatible file:
