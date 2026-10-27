@@ -1,5 +1,3 @@
-"use strict";
-
 function add(first, second = 0) {
   return first + second;
 }
